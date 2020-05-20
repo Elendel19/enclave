@@ -1,6 +1,6 @@
 # Anthem API (unofficial)
 
-Setup:
+## Setup:
 
 - Make sure you have `Git` installed and setup on your system.
 - Download `Docker` for your preferred operating system.
@@ -8,7 +8,7 @@ Setup:
 - Navigate to the project directory in your terminal and run the following:
 
   ```
-  docker-compose up
+  $ docker-compose up
   ```
 
   You should see output in the console as the docker images for your database and node API are built and then started.
@@ -22,3 +22,9 @@ Setup:
 To test that you can hit the API, open a web browser and navigate to `localhost:800` or use an API tool like `Postman`, or `curl` from your terminal.
 
 You should recieve a message like: "Anthem API"
+
+## Running locally without Docker
+
+```
+$ npm i && npm start
+```
