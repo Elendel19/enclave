@@ -1,19 +1,15 @@
 {
-  "name": "anthem-api",
-  "version": "1.0.0",
-  "description": "Unofficial API for Anthem",
-  "main": "index.js",
+  "name": "enclave",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "node ./src/server.js",
-    "dev": "nodemon ./src/server.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "author": "Erich Rahm",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "knex": "^0.21.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
+    "next": "9.5.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   }
 }
